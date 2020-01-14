@@ -1,11 +1,11 @@
 const { sluggerify } = require('./index')
 
 /**
- * @describe contains basic sluggerish functionality tests.
+ * @describe contains basic Sluggerify functionality tests.
  */
-describe('testing sluggerish basic functionality', () => {
+describe('testing Sluggerify basic functionality', () => {
     /**
-     * @it verifies sluggerish supports spaces
+     * @it verifies Sluggerify supports spaces
      */
     it('slugger supports spaces', () => {
         const result = sluggerify('this is one line')
@@ -13,9 +13,9 @@ describe('testing sluggerish basic functionality', () => {
         expect(result).toEqual(expected);
     })
     /**
-     * @it verifies sluggerish supports spaces in multiple words
+     * @it verifies Sluggerify supports spaces in multiple words
      */
-    it('slugger supports spaces', () => {
+    it('slugger supports spaces across multiple lines', () => {
         const result = sluggerify('this is one line', 'my name is ohad')
         const expected = 'this-is-one-line-my-name-is-ohad';
         expect(result).toEqual(expected);

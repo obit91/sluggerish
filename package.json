@@ -1,7 +1,7 @@
 {
   "name": "@obit91/sluggerify",
   "version": "1.2.0",
-  "description": "Sluggerish!",
+  "description": "Sluggerify!",
   "main": "src/index.js",
   "scripts": {
     "test": "jest ./src/index.spec.js",
@@ -19,10 +19,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/obit91/sluggerish.git"
+    "url": "git+https://github.com/obit91/Sluggerify.git"
   },
   "bugs": {
-    "url": "https://github.com/obit91/sluggerish/issues"
+    "url": "https://github.com/obit91/Sluggerify/issues"
   },
-  "homepage": "https://github.com/obit91/sluggerish#readme"
+  "homepage": "https://github.com/obit91/Sluggerify#readme"
 }
